@@ -639,5 +639,150 @@ const tas = [
         name: 'علی صفری',
         responsibility: 'مسئول چالش',
         email: 'safariali949@gmail.com '
+    },
+	{
+        name: 'مهدی قائم‌پناه',
+        responsibility: '',
+        email: 'mahdi13812002@gmail.com'
+    },
+	{
+        name: 'امیرحسین عابدی',
+        responsibility: '',
+        email: 'amirhoseinabedi80@gmail.com'
+    },
+	{
+        name: 'مهراد میلانلو',
+        responsibility: '',
+        email: 'mehrad_milanloo@yahoo.com'
+    },
+	{
+        name: 'علی مرادی شهمیری',
+        responsibility: '',
+        email: 'alimoradishahmiri@gmail.com'
+    },
+	{
+        name: 'سیدمحمدحسین کاظمی',
+        responsibility: '',
+        email: 'smhk1427@gmail.com'
+    },
+	{
+        name: 'رضا طاهری',
+        responsibility: '',
+        email: 'h.rezataheri@gmail.com'
+    },
+	{
+        name: 'علی ثالثی',
+        responsibility: '',
+        email: 'ali_sal1381@yahoo.com'
+    },
+	{
+        name: 'پرنیان رضوی‌پور',
+        responsibility: '',
+        email: 'razaviparnian81@yahoo.com'
+    },
+	{
+        name: 'علی رحمی‌زاد',
+        responsibility: '',
+        email: 'arahmizad@gmail.com'
+    },
+	{
+        name: 'محمد ابول‌نژادیان',
+        responsibility: '',
+        email: 'mohammad.abolnejadian@gmail.com'
+    },
+	{
+        name: 'هیربد بهنام',
+        responsibility: '',
+        email: 'hirbod.behnam.81@gmail.com'
+    },
+	{
+        name: 'سام خانکی',
+        responsibility: '',
+        email: 'sam.khanakiskh@gmail.com'
+    },
+	{
+        name: 'کیان شمسایی',
+        responsibility: '',
+        email: 'kianshamsaie@gmail.com'
+    },
+	{
+        name: 'محمد خلفی',
+        responsibility: '',
+        email: 'mohamadkhalafi.81@gmail.com'
+    },
+	{
+        name: 'سینا ایمانی',
+        responsibility: '',
+        email: 'mr.sinaimani@gmail.com'
+    },
+	{
+        name: 'سهیل نظری',
+        responsibility: '',
+        email: 's.nazari80820@gmail.com'
+    },
+	{
+        name: 'طاها اکبری',
+        responsibility: '',
+        email: 'tahaakbarialvanagh@gmail.com'
+    },
+	{
+        name: 'صالح صفرنژاد',
+        responsibility: '',
+        email: 'saleh.safarnejad@gmail.com'
+    },
+	{
+        name: 'مهدی لطفیان',
+        responsibility: '',
+        email: 'mehdilotfian.meloent@gmail.com'
+    },
+	{
+        name: 'ابوالفضل سلطانی',
+        responsibility: '',
+        email: 'absoltani02@gmail.com'
+    },
+	{
+        name: 'عرفان مجیبی',
+        responsibility: '',
+        email: 'mojibierfan@gmail.com'
+    },
+	{
+        name: 'محمدحسین قاسمی',
+        responsibility: '',
+        email: 'ho3ein2532@gmail.com'
+    },
+	{
+        name: 'محمدرضا دویران',
+        responsibility: '',
+        email: 'mohammadreza.dn80@gmail.com'
+    },
+	{
+        name: 'مبینا پورنعمت',
+        responsibility: '',
+        email: 'mobina.poornemat@gmail.com'
+    },
+	{
+        name: 'محمد آقایی',
+        responsibility: '',
+        email: 'maghaie14@yahoo.com'
+    },
+	{
+        name: 'صبا مولایی',
+        responsibility: '',
+        email: 'saba.molaeiiiiiii@gmail.com'
+    },
+	{
+        name: 'محمدپرهام باطنی',
+        responsibility: '',
+        email: 'mp.bateni@gmail.com'
+    },
+	{
+        name: 'ایمان محمدی',
+        responsibility: '',
+        email: 'imanm1381@gmail.com'
+    },
+	{
+        name: 'بنیامین ملکی',
+        responsibility: '',
+        email: 'benyaminmaleki81@gmail.com'
     }
 ]
