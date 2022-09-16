@@ -1,23 +1,23 @@
 const info = {
-    pageTitle: 'ساختمان داده‌ها و الگوریتم‌ها (۴۰۲۵۴) - بهار ۱۴۰۰-۱۴۰۱',
+    pageTitle: 'ساختمان داده‌ها و الگوریتم‌ها (۴۰۲۵۴) - پاییز ۱۴۰۱-۱۴۰۲',
     courseTitle: 'ساختمان داده‌ها و الگوریتم‌ها',
     courseNum: '۴۰۲۵۴',
     department: 'دانشگاه صنعتی شریف، دانشکدۀ مهندسی کامپیوتر',
-    semester: 'ترم بهار ۱۴۰۰-۱۴۰۱',
+    semester: 'ترم پاییز ۱۴۰۱-۱۴۰۲',
     professor: 'مهدی صفرنژاد',
-    inPersonClass: 'کلاس ۱۰۱ دانشکده مهندسی کامپیوتر - ساعت ۹ تا ۱۰:۳۰ روزهای یک‌شنبه و سه‌شنبه',
+    inPersonClass: 'کلاس ۱۰۱ دانشکده مهندسی کامپیوتر - ساعت ۹ تا ۱۰:۳۰ روزهای شنبه و دوشنبه',
     virtualClass: {
         link: 'https://vc.sharif.edu/ch/safarnejad',
         title: 'کلاس‌های مجازی دانشگاه شریف',
-        note: 'یک‌شنبه‌ها و سه‌شنبه‌ها - ساعت ۷:۳۰ الی ۹:۰۰'
+        note: 'شنبه‌ها و دوشنبه‌ها - ساعت ۹:۰۰ الی ۱۰:۳۰'
     },
-    inPersonTaClass: 'کلاس ۱۰۱ دانشکده مهندسی کامپیوتر - ساعت ۹ تا ۱۰:۳۰ روزهای شنبه',
+    inPersonTaClass: 'کلاس ۱۰۱ دانشکده مهندسی کامپیوتر - ساعت ۹ تا ۱۰:۳۰ روزهای شنبه و دوشنبه',
     virtualTaClass: {
         link: 'https://vc.sharif.edu/ch/safarnejad-ta',
         title: 'کلاس‌های مجازی دانشگاه شریف',
-        note: 'به‌صورت موردی برگزار می‌شود.'
+        note: 'به‌صورت موردی روز شنبه ساعت ۱۲ برگزار می‌شود'
     },
-    queraLink: 'https://quera.ir/course/9121',
+    queraLink: 'https://quera.org/course/11876/',
     homepages: [
         {
             title: 'سایت اصلی درس',
@@ -26,7 +26,7 @@ const info = {
         },
         {
             title: 'کوئرا',
-            link: 'https://quera.ir/course/9121',
+            link: 'https://quera.org/course/11876/',
             note: 'برای ارسال تمرین‌ها و گفت‌و‌گو'
         }
     ],
@@ -34,7 +34,7 @@ const info = {
         image: 'img/ghodsi.jpg',
         alt: 'مرجع اصلی درس'
     },
-    marksSpreadsheet: 'https://docs.google.com/spreadsheets/d/1bATanH69B85dwogGzo2J2-aMrk0JuiiZJkvDrE_9i9c/edit?usp=sharing',
+    marksSpreadsheet: 'https://docs.google.com/spreadsheets/d/1TlH3NVydrtQYrpIoD36MEAnYZ0TMtAxemcS00q8eF9Q/edit?usp=sharing',
     references: [
         {
             link: 'https://fatemi.ir/book/داده%E2%80%8Cساختارها-و-مبانی-الگوریتم%E2%80%8Cها',
@@ -55,8 +55,8 @@ const info = {
 const sessions = [
     {
         num: '۱',
-        date: '۳ فروردین ۱۴۰۲',
-        subject: 'موضوع',
+        date: '۲۸ شهریور ۱۴۰۱',
+        subject: 'تفکر الگوریتمی و حل مسئله',
         notes: [
             {
                 name: 'یادداشت ترم‌های قبل',
@@ -69,18 +69,472 @@ const sessions = [
         ],
         further: ''
     },
-    {
-        subject: 'میان‌ترم',
-        further: '(پنج‌شنبه ۱۱ آذر ۱۴۰۰ - ساعت ۱۰:۰۰ صبح)',
+	{
+        num: '۲',
+        date: '۲ مهر ۱۴۰۱',
+        subject: 'مدل محاسبات',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=2'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_2.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۳',
+        date: '۴ مهر ۱۴۰۱',
+        subject: 'مرتب‌سازی درجی',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=3'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_3.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۴',
+        date: '۹ مهر ۱۴۰۱',
+        subject: 'مرتب‌سازی ادغامی و تقسیم و حل',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=4'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_4.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۵',
+        date: '۱۱ مهر ۱۴۰۱',
+        subject: 'داده‌ساختارهای پایه',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=5'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_5.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۶',
+        date: '۱۶ مهر ۱۴۰۱',
+        subject: 'ادامه داده‌ساختارهای پایه',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=6'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_6.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۷',
+        date: '۱۸ مهر ۱۴۰۱',
+        subject: 'ادامه داده‌ساختارهای پایه',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=7'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_7.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۸',
+        date: '۲۳ مهر ۱۴۰۱',
+        subject: 'هرم و مرتب‌سازی هرمی',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=8'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_8.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۹',
+        date: '۲۵ مهر ۱۴۰۱',
+        subject: 'درخت‌های دودویی متوازن: درخت اِی‌وی‌اِل',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=9'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_9.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۱۰',
+        date: '۳۰ مهر ۱۴۰۱',
+        subject: 'درخت‌های دودویی متوازن: درخت قرمز-سیاه',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=10'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_10.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۱۱',
+        date: '۲ آبان ۱۴۰۱',
+        subject: 'مرتب‌سازی سریع، پیدا کردن میانه و تحلیل تصادفی',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=11'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_11.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۱۲',
+        date: '۷ آبان ۱۴۰۱',
+        subject: 'کران پایین مرتب‌سازی و مرتب‌سازی خطی',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=12'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_12.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۱۳',
+        date: '۹ آبان ۱۴۰۱',
+        subject: 'مقدمات درهم‌سازی ، جدول درهم‌سازی با زنجیره',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=13'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_13.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۱۴',
+        date: '۱۴ آبان ۱۴۰۱',
+        subject: 'درهم‌سازی سراسری و درهم‌سازی پویا',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=14'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_14.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۱۵',
+        date: '۱۶ آبان ۱۴۰۱',
+        subject: 'ادامه درهم‌سازی، آدرس‌دهی باز، روش‌های وارسی و فیلتر بلوم',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=15'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_15.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۱۶',
+        date: '۲۱ آبان ۱۴۰۱',
+        subject: 'درهم‌سازی کامل، درهم‌سازی کوکو و درهم‌سازی در رمزنگاری',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=16'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_16.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۱۷',
+        date: '۲۳ آبان ۱۴۰۱',
+        subject: 'جست‌وجوی سطح اول گراف',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=17'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_17.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۱۸',
+        date: '۲۸ آبان ۱۴۰۱',
+        subject: 'جست‌وجوی عمق اول گراف',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=18'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_18.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۱۹',
+        date: '۳۰ آبان ۱۴۰۱',
+        subject: 'پیدا کردن مؤلفه‌های قویاً همبند / درخت عبارت',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=19'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_19.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۲۰',
+        date: '۵ آذر ۱۴۰۱',
+        subject: 'کوتاهترین مسیر در گراف وزن‌دار',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=20'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_20.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۲۱',
+        date: '۷ آذر ۱۴۰۱',
+        subject: 'الگوریتم بلمن-فورد',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=21'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_21.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۲۲',
+        date: '۱۲ آذر ۱۴۰۱',
+        subject: 'الگوریتم دایسترا / مجموعه‌های مجزا (مقدمه)',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=22'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_22.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۲۳',
+        date: '۱۴ آذر ۱۴۰۱',
+        subject: 'مجموعه‌های مجزا و تحلیل سرشکن',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=23'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_23.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۲۴',
+        date: '۱۹ آذر ۱۴۰۱',
+        subject: 'ترای، درخت پسوندی، آرایهٔ پسوندی و تبدیل باروز-ویلر',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=24'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_24.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۲۵',
+        date: '۲۱ آذر ۱۴۰۱',
+        subject: 'مسئلۀ پرسش کمینۀ یک محدوده و درخت دکارتی (کاربرد پشته) / درخت مرتبه آماری ، داده‌ساختارهای افزوده، درخت پاره‌خطی و درخت فنویک',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=25'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_25.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۲۶',
+        date: '۲۶ آذر ۱۴۰۱',
+        subject: 'معرفی مباحث پیشرفته و مرور مطالب',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=26'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_26.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۲۷',
+        date: '۲۸ آذر ۱۴۰۱',
+        subject: 'جبرانی',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=27'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_27.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        num: '۲۸',
+        date: '۳ دی ۱۴۰۱',
+        subject: 'جبرانی',
+        notes: [
+            {
+                name: 'یادداشت ترم‌های قبل',
+                link: 'lec.html?num=28'
+            },
+            {
+                name: 'جزوه دانشجویان',
+                link: 'student-notes/DS_28.pdf'
+            }
+        ],
+        further: ''
+    },
+	{
+        subject: 'کوییز اول',
+        further: '(شنبه ۲۳ مهر ۱۴۰۱ - ساعت ۱۲:۰۰ صبح)',
+        isExam: true
+    },
+	{
+        subject: 'کوییز دوم',
+        further: '(شنبه ۱۴ آبان ۱۴۰۱ - ساعت ۱۲:۰۰ صبح)',
+        isExam: true
+    },
+	{
+        subject: 'کوییز سوم',
+        further: '(شنبه ۵ آذر ۱۴۰۱ - ساعت ۱۲:۰۰ صبح)',
         isExam: true
     },
     {
-        subject: '۲۶ بهمن - تعطیل رسمی - ۱۳ رجب',
-        isHoliday: true
+        subject: 'میان‌ترم',
+        further: '(پنج‌شنبه ۱۰ آذر ۱۴۰۱ - ساعت ۱۰:۰۰ صبح)',
+        isExam: true
     },
-    {
-        subject: 'کوئیز دوم - ۱۳ آبان',
-        isQuiz: true
+	{
+        subject: 'کوییز چهارم',
+        further: '(شنبه ۳ دی ۱۴۰۱ - ساعت ۱۲:۰۰ صبح)',
+        isExam: true
+    },
+	{
+        subject: 'کوییز پنجم',
+        further: '(شنبه ۱۷ دی ۱۴۰۱ - ساعت ۱۲:۰۰ صبح)',
+        isExam: true
+    },
+	{
+        subject: '‌پایان‌ترم',
+        further: '(پنج‌شنبه ۲۲ دی ۱۴۰۱ - ساعت ۹:۰۰ صبح)',
+        isExam: true
     }
 ]
 
@@ -92,7 +546,7 @@ const marks = [
     },
     {
         name: 'تمرین‌های عملی',
-        mark: '۴'
+        mark: '۵'
     },
     {
         name: 'کوئیز‌ها',
@@ -101,7 +555,7 @@ const marks = [
     },
     {
         name: 'میان‌ترم',
-        mark: '۶'
+        mark: '۵'
     },
     {
         name: 'پایان‌ترم',
@@ -109,7 +563,7 @@ const marks = [
     },
     {
         name: 'چالش',
-        mark: '۶',
+        mark: '۲',
         note: 'امتیازی'
     },
 ]
@@ -119,52 +573,52 @@ const assignments = [
         num: 'اول',
         subject: 'تفکر الگوریتمی',
         publishDate: '۱۱ مهر',
-        dueDate: '۲۱ مهر'
+        dueDate: '۲۰ مهر'
     },
     {
         num: 'دوم',
         subject: 'مرتب‌سازی',
-        publishDate: '۱۱ مهر',
-        dueDate: '۲۱ مهر'
+        publishDate: '۲۵ مهر',
+        dueDate: '۱۱ آبان'
     },
     {
         num: 'سوم',
         subject: 'درخت‌ها',
-        publishDate: '۱۱ مهر',
-        dueDate: '۲۱ مهر'
+        publishDate: '۱۶ آبان',
+        dueDate: '۲ آذر'
     },
     {
         num: 'چهارم',
         subject: 'درهم‌سازی',
-        publishDate: '۱۱ مهر',
-        dueDate: '۲۱ مهر'
+        publishDate: '۱۴ آذر',
+        dueDate: '۳۰ آذر'
     },
     {
         num: 'پنجم',
         subject: 'گراف',
-        publishDate: '۱۱ مهر',
-        dueDate: '۲۱ مهر'
+        publishDate: '۵ دی',
+        dueDate: '۲۲ دی'
     }
 ]
 
 const challenge = [
     {
         title: 'فاز اول',
-        publishDate: '۶ آبان',
-        dueDate: '۲۵ آذر'
+        publishDate: '۷ آبان',
+        dueDate: '۲۱ آذر'
     },
     {
         title: 'فاز دوم',
-        publishDate: '۶ آذر',
-        dueDate: '۲۵ دی'
+        publishDate: '۲۱ آذر',
+        dueDate: '۳ بهمن'
     },
 ]
 
 const tas = [
     {
-        name: 'محمدمهدی قیدی',
+        name: 'علی‌پاشا منتصری',
         responsibility: 'سردستیار',
-        email: 'gheidimahdi@gmail.com'
+        email: 'alipasha.montaseri@gmail.com'
     },
     {
         name: 'نوید اسلامی',
@@ -172,13 +626,18 @@ const tas = [
         email: 'n3slami@gmail.com'
     },
     {
-        name: 'میلاد سعادت',
+        name: 'کامیار کازری',
         responsibility: 'مسئول تمرین‌های تئوری',
-        email: 'msaadat1379@gmail.com'
+        email: 'kamyarkazari@gmail.com '
     },
     {
-        name: 'امیرمهدی کوششی',
-        responsibility: '',
-        email: 'amk_amir82@yahoo.com'
+        name: 'سروش شرافت',
+        responsibility: 'مسئول کوییزها',
+        email: 'sorousherafat@gmail.com'
+    },
+	{
+        name: 'علی صفری',
+        responsibility: 'مسئول چالش',
+        email: 'safariali949@gmail.com '
     }
 ]
